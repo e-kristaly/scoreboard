@@ -60,7 +60,7 @@ function resetScore() {
     homeFoul.textContent = homeFoulCount
     guestFoul.textContent = guestFoulCount
     highlightLeader();
-  clearInterval(intervalId);
+    clearInterval(intervalId);
     resetTimer();
     startTimer();
 }
