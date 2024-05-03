@@ -1,14 +1,14 @@
 
-let homeScore = document.getElementById("home-score")
-let guestScore = document.getElementById("guest-score")
-let periodCount = document.getElementById("period-count")
-let homeFoul = document.getElementById("home-foul")
-let guestFoul = document.getElementById("guest-foul")
-let homeCount = 0
-let guestCount = 0
-let currentPeriod = 1
-let homeFoulCount = 0
-let guestFoulCount = 0
+let homeScore = document.getElementById("home-score");
+let guestScore = document.getElementById("guest-score");
+let periodCount = document.getElementById("period-count");
+let homeFoul = document.getElementById("home-foul");
+let guestFoul = document.getElementById("guest-foul");
+let homeCount = 0;
+let guestCount = 0;
+let currentPeriod = 1;
+let homeFoulCount = 0;
+let guestFoulCount = 0;
 let intervalId;
 
 
